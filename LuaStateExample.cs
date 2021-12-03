@@ -56,7 +56,7 @@ public class LuaStateExample
         return 1;
     }
 
-    private void ExecuteWithNoParamAndNoReturnValue(string content)
+    public void ExecuteWithNoParamAndNoReturnValue(string content)
     {
         var chunkName = "Chunk";
         var bytes = Encoding.ASCII.GetBytes(content);
