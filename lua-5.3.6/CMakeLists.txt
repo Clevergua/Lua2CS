@@ -9,6 +9,7 @@ set(LUA_SRC_PATH ./src)
 include_directories(${LUA_SRC_PATH})
 
 aux_source_directory(${LUA_SRC_PATH} LUA_CORE)
+list(REMOVE_ITEM LUA_CORE ${LUA_SRC_PATH}/lua.c ${LUA_SRC_PATH}/luac.c)
 
 add_library(lua5.3.6 SHARED ${LUA_CORE})
 
