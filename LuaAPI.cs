@@ -43,6 +43,8 @@ namespace Lua2CS
         [DllImport(dllName, CallingConvention = CallingConvention.Cdecl)]
         public extern static IntPtr luaL_newstate();
         [DllImport(dllName, CallingConvention = CallingConvention.Cdecl)]
+        public extern static void lua_close(IntPtr l);
+        [DllImport(dllName, CallingConvention = CallingConvention.Cdecl)]
         public extern static void luaL_openlibs(IntPtr l);
         [DllImport(dllName, CallingConvention = CallingConvention.Cdecl)]
         public extern static int lua_pcallk(IntPtr l, int nargs, int nresults, int errfunc, int ctx, IntPtr k);
