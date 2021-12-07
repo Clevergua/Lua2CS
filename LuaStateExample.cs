@@ -19,13 +19,12 @@ namespace Lua2CS
             LuaAPI.lua_pushcfunction(luaState, fn);
             errorFuncRef = LuaAPI.luaL_ref(luaState, LuaAPI.LUA_REGISTRYINDEX);
             // Register print function..
-            fn = Marshal.GetFunctionPointerForDelegate(new LuaFunction(PrintWithTracebackMessage));
+            fn = Marshal.GetFunctionPointerForDelegate(new LuaFunction(Print));
             LuaAPI.lua_register(luaState, "print", fn);
         }
 
-        private int PrintWithTracebackMessage(IntPtr luastate)
+        private int Print(IntPtr luaState)
         {
-            SetTracebackMessage(luaState);
             var n = LuaAPI.lua_gettop(luaState);
             LuaAPI.lua_getglobal(luaState, "tostring");
             var sb = new StringBuilder();
@@ -40,7 +39,6 @@ namespace Lua2CS
                 sb.Append("\t");
                 LuaAPI.lua_pop(luaState, 1);
             }
-            LuaAPI.lua_pop(luaState, n + 1);
             System.Console.WriteLine(sb.ToString());
             return 0;
         }
