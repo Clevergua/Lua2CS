@@ -38,7 +38,10 @@ namespace Lua2CS
             lua_pushcfunction(l, fn);
             lua_setglobal(l, name);
         }
-
+        public static double lua_tonumber(IntPtr l, int idx)
+        {
+            return lua_tonumberx(l, idx, IntPtr.Zero);
+        }
 #pragma warning restore IDE1006
         [DllImport(dllName, CallingConvention = CallingConvention.Cdecl)]
         public extern static IntPtr luaL_newstate();
@@ -82,6 +85,8 @@ namespace Lua2CS
         public static extern void lua_setglobal(IntPtr l, string name);
         [DllImport(dllName, CallingConvention = CallingConvention.Cdecl)]
         public static extern void lua_pushstring(IntPtr l, string s);
+        [DllImport(dllName, CallingConvention = CallingConvention.Cdecl)]
+        public static extern double lua_tonumberx(IntPtr L, int idx, IntPtr pisnum);
     }
 }
 
