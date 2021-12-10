@@ -39,6 +39,7 @@ namespace Lua2CS
                 sb.Append("\t");
                 LuaAPI.lua_pop(luaState, 1);
             }
+            LuaAPI.lua_pop(luaState, n + 1);
             System.Console.WriteLine(sb.ToString());
             return 0;
         }
