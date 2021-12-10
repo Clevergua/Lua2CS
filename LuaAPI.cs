@@ -78,8 +78,6 @@ namespace Lua2CS
         [DllImport(dllName, CallingConvention = CallingConvention.Cdecl)]
         public static extern IntPtr lua_tolstring(IntPtr l, int idx, out IntPtr len);
         [DllImport(dllName, CallingConvention = CallingConvention.Cdecl)]
-        public static extern int lua_rawgeti(IntPtr l, int idx, int n);
-        [DllImport(dllName, CallingConvention = CallingConvention.Cdecl)]
         public static extern int lua_type(IntPtr l, int idx);
         [DllImport(dllName, CallingConvention = CallingConvention.Cdecl)]
         public static extern void lua_setglobal(IntPtr l, string name);
@@ -88,7 +86,15 @@ namespace Lua2CS
         [DllImport(dllName, CallingConvention = CallingConvention.Cdecl)]
         public static extern double lua_tonumberx(IntPtr l, int idx, IntPtr pisnum);
         [DllImport(dllName, CallingConvention = CallingConvention.Cdecl)]
-        public static extern void lua_pushinteger (IntPtr l, int n);
+        public static extern void lua_pushinteger(IntPtr l, int n);
+        [DllImport(dllName, CallingConvention = CallingConvention.Cdecl)]
+        public static extern int lua_rawgeti(IntPtr l, int idx, int n);
+        [DllImport(dllName, CallingConvention = CallingConvention.Cdecl)]
+        public static extern int lua_rawget(IntPtr l, int idx);
+        [DllImport(dllName, CallingConvention = CallingConvention.Cdecl)]
+        public static extern void lua_rawset(IntPtr l, int idx);
+        [DllImport(dllName, CallingConvention = CallingConvention.Cdecl)]
+        public static extern void lua_rawseti(IntPtr l, int idx, int n);
     }
 }
 
