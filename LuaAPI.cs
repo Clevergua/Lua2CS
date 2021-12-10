@@ -86,7 +86,9 @@ namespace Lua2CS
         [DllImport(dllName, CallingConvention = CallingConvention.Cdecl)]
         public static extern void lua_pushstring(IntPtr l, string s);
         [DllImport(dllName, CallingConvention = CallingConvention.Cdecl)]
-        public static extern double lua_tonumberx(IntPtr L, int idx, IntPtr pisnum);
+        public static extern double lua_tonumberx(IntPtr l, int idx, IntPtr pisnum);
+        [DllImport(dllName, CallingConvention = CallingConvention.Cdecl)]
+        public static extern void lua_pushinteger (IntPtr l, int n);
     }
 }
 
