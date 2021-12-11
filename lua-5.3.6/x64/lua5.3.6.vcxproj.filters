@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\lapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\lauxlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\lbaselib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\lbitlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\lcode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\lcorolib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\lctype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\ldblib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\ldebug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\ldo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\ldump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\lfunc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\lgc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\linit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\liolib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\llex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\lmathlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\lmem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\loadlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\lobject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\lopcodes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\loslib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\lparser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\lstate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\lstring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\lstrlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\ltable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\ltablib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\ltm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\lundump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\lutf8lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\lvm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\src\lzio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Cleve\Documents\GitHub\Tests\Lua2CS\lua-5.3.6\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7597B60A-22B5-390C-B815-73038663C64C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+C:/Users/Cleve/Documents/GitHub/Tests/Lua2CS/lua-5.3.6/x64/CMakeFiles/lua5.3.6.dir
+C:/Users/Cleve/Documents/GitHub/Tests/Lua2CS/lua-5.3.6/x64/CMakeFiles/ALL_BUILD.dir
+C:/Users/Cleve/Documents/GitHub/Tests/Lua2CS/lua-5.3.6/x64/CMakeFiles/ZERO_CHECK.dir
