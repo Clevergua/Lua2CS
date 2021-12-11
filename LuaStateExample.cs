@@ -5,8 +5,8 @@ namespace Lua2CS
 {
     public class LuaStateExample
     {
-        private IntPtr luaState;
-        private int errorFuncRef;
+        private readonly IntPtr luaState;
+        private readonly int errorFuncRef;
 
         public delegate int LuaFunction(IntPtr luastate);
 
