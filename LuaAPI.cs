@@ -97,6 +97,8 @@ namespace Lua2CS
         public static extern void lua_rawseti(IntPtr l, int idx, int n);
         [DllImport(dllName, CallingConvention = CallingConvention.Cdecl)]
         public static extern void lua_settable(IntPtr l, int idx);
+        [DllImport(dllName, CallingConvention = CallingConvention.Cdecl)]
+        public static extern void lua_pushboolean (IntPtr l, int b);
     }
 }
 
